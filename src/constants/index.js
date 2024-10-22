@@ -195,8 +195,8 @@ export const mobileProject = [
       },
     ],
     image: rumahraga,
-    source_link: "https://github.com/shinchancode/Cryptography",
-    source_code_link: "https://github.com/shinchancode/Cryptography",
+    source_link: "https://github.com/socute7/RumahRaga",
+    source_code_link: "https://github.com/socute7/RumahRaga",
   },
   {
     name: "Lapor",
@@ -217,8 +217,8 @@ export const mobileProject = [
       },
     ],
     image: lapor,
-    source_link: "https://github.com/shinchancode/Cryptography",
-    source_code_link: "https://github.com/shinchancode/Cryptography",
+    source_link: "https://github.com/socute7/Lapor",
+    source_code_link: "https://github.com/socute7/Lapor",
   },
   {
     name: "RumahRaga Mitra",
@@ -239,8 +239,8 @@ export const mobileProject = [
       },
     ],
     image: mitra,
-    source_link: "https://github.com/shinchancode/Cryptography",
-    source_code_link: "https://github.com/shinchancode/Cryptography",
+    source_link: "https://github.com/socute7/RumahRaga-Mitra",
+    source_code_link: "https://github.com/socute7/RumahRaga-Mitra",
   },
   {
     name: "Rekber",
@@ -261,8 +261,8 @@ export const mobileProject = [
       },
     ],
     image: rekber,
-    source_link: "https://github.com/shinchancode/Cryptography",
-    source_code_link: "https://github.com/shinchancode/Cryptography",
+    source_link: "https://github.com/socute7/Rekber",
+    source_code_link: "https://github.com/socute7/Rekber",
   },
 ];
 
@@ -286,8 +286,8 @@ export const websiteProject = [
       },
     ],
     image: rumahweb,
-    source_link: "https://github.com/shinchancode/Trie-Data-structure",
-    source_code_link: "https://github.com/shinchancode/Trie-Data-structure",
+    source_link: "",
+    source_code_link: "",
   },
   {
     name: "UPT Logam",
@@ -308,8 +308,8 @@ export const websiteProject = [
       },
     ],
     image: upt,
-    source_link: "https://github.com/shinchancode/Trie-Data-structure",
-    source_code_link: "https://github.com/shinchancode/Trie-Data-structure",
+    source_link: "",
+    source_code_link: "",
   },
 ];
 
@@ -461,13 +461,6 @@ const experiences = [
 ];
 
 const educations = [
-  {
-    degree: "SMA",
-    branch: "IPA",
-    name: "SMA PGRI 1 Pati",
-    year: "(2012 - 2015)",
-    image: becons,
-  },
   {
     degree: "Diploma 3",
     branch: "Teknik Informatika",
