@@ -462,6 +462,13 @@ const experiences = [
 
 const educations = [
   {
+    degree: "SMA",
+    branch: "IPA",
+    name: "SMA PGRI 1 Pati",
+    year: "(2012 - 2015)",
+    image: udinus,
+  },
+  {
     degree: "Diploma 3",
     branch: "Teknik Informatika",
     name: "Universitas Dian Nuswantoro",
