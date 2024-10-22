@@ -63,6 +63,8 @@ import sertifmsib from "./ceritificate/sertif msib.pdf";
 import toefl from "./ceritificate/toefl.pdf";
 import wmk from "./ceritificate/wmk.pdf";
 
+import becons from "./becons.jpg";
+
 export {
   logo,
   backend,
@@ -120,4 +122,5 @@ export {
   sertifmsib,
   toefl,
   wmk,
+  becons,
 };

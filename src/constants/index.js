@@ -47,6 +47,7 @@ import {
   sertifmsib,
   toefl,
   wmk,
+  becons,
 } from "../assets";
 
 const profiles = [
@@ -413,7 +414,7 @@ const experiences = [
   {
     title: "Fullstack Developer",
     company_name: "PT Baracipta Esa Enginering (MSIB Intern)",
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS3q6FIio0-nt_RVx5t6sOZlTpFN3MNcGuAw&s",
+    icon: becons,
     iconBg: "#383E56",
     date: "Feb 2024 - Jun 2024",
     link: "",
