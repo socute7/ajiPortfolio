@@ -466,7 +466,7 @@ const educations = [
     branch: "IPA",
     name: "SMA PGRI 1 Pati",
     year: "(2012 - 2015)",
-    image: udinus,
+    image: becons,
   },
   {
     degree: "Diploma 3",
