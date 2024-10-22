@@ -36,16 +36,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_6y5vft7',
-        'template_5g175sf',
+        "service_6y5vft7",
+        "template_5g175sf",
         {
           from_name: form.name,
-          to_name: "Aarti Rathi",
+          to_name: "Aji Darma Saputra",
           from_email: form.email,
-          to_email: "aarti.rathi1710@gmail.com",
+          to_email: "ajidarma715@gmail.com",
           message: form.message,
         },
-        'FMQ4a1hK5NSAkumfj',
+        "FMQ4a1hK5NSAkumfj"
       )
       .then(
         () => {
@@ -73,14 +73,15 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
         <EarthCanvas />
       </motion.div>
 
-      <motion.div whileInView={{ opacity: 1 , transform : 'none'}}
+      <motion.div
+        whileInView={{ opacity: 1, transform: "none" }}
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -88,46 +89,45 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-3 flex flex-col gap-8'
+          className="mt-3 flex flex-col gap-8"
         >
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-3'>Your Name</span>
+          <label className="flex flex-col">
+            <span className="text-white font-medium mb-3">Your Name</span>
             <input
-              type='text'
-              name='name'
+              type="text"
+              name="name"
               value={form.name}
               onChange={handleChange}
               placeholder="What's your good name?"
-              className='bg-tertiary py-3 px-3 placeholder:text-secondary text-white rounded-lg border-none font-medium'
+              className="bg-tertiary py-3 px-3 placeholder:text-secondary text-white rounded-lg border-none font-medium"
             />
           </label>
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-3'>Your email</span>
+          <label className="flex flex-col">
+            <span className="text-white font-medium mb-3">Your email</span>
             <input
-              type='email'
-              name='email'
+              type="email"
+              name="email"
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
-              className='bg-tertiary py-3 px-3 placeholder:text-secondary text-white rounded-lg border-none font-medium'
+              className="bg-tertiary py-3 px-3 placeholder:text-secondary text-white rounded-lg border-none font-medium"
             />
           </label>
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-3'>Your Message</span>
+          <label className="flex flex-col">
+            <span className="text-white font-medium mb-3">Your Message</span>
             <textarea
               rows={7}
-              name='message'
+              name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
-              className='bg-tertiary py-3 px-3 placeholder:text-secondary text-white rounded-lg border-none font-medium'
+              placeholder="What you want to say?"
+              className="bg-tertiary py-3 px-3 placeholder:text-secondary text-white rounded-lg border-none font-medium"
             />
           </label>
 
-          
           <button
-            type='submit'
-            className='bg-tertiary py-3 px-5 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            type="submit"
+            className="bg-tertiary py-3 px-5 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
           >
             {loading ? "Sending..." : "Send"}
           </button>
@@ -136,11 +136,21 @@ const Contact = () => {
         <div className="mt-5 contact__options">
           <article className="contact__option">
             <MdEmail />
-            <a href="mailto:aarti.rathi1710@gmail.com" target="_blank" className="blue-text-gradient">aarti.rathi1710@gmail.com</a>
+            <a
+              href="mailto:ajidarma715@gmail.com"
+              target="_blank"
+              className="blue-text-gradient"
+            >
+              ajidarma715@gmail.com
+            </a>
           </article>
           <article className="contact__option">
             <BsWhatsapp />
-            <a href="https://api.whatsapp.com/send/?phone=917040031669&text&app_absent=0&lang=en" target="_blank" className="blue-text-gradient">
+            <a
+              href="https://api.whatsapp.com/send/?phone=917040031669&text&app_absent=0&lang=en"
+              target="_blank"
+              className="blue-text-gradient"
+            >
               +91 7040031669
             </a>
           </article>
