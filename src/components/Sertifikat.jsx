@@ -29,7 +29,7 @@ const SertifikatCard = ({ index, name, pdf }) => {
           scrolling="no"
         ></iframe>
         <div className="pdf-placeholder text-center">
-          <p className="text-secondary text-[14px]">{name} PDF</p>
+          <p className="text-secondary text-[14px]">{name}</p>
         </div>
       </Tilt>
     </motion.div>

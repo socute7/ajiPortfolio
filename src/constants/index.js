@@ -419,9 +419,10 @@ const experiences = [
     date: "Feb 2024 - Jun 2024",
     link: "",
     points: [
+      "Intership MSIB Batch 6 di PT Baracipta Esa Enginering.",
       "Membuat ERP project Mitra.",
-      "Membuat FrontEnd Website.",
-      "Membuat BackEnd Website.",
+      "Membuat FrontEnd Website dengan framework Laravel, Bootstrap.",
+      "Membuat BackEnd Website Postgress Sql.",
       "Uji Mekanisme Sistem Website.",
       "Deploy Project.",
     ],
@@ -488,7 +489,7 @@ const sertifikat = [
     pdf: powerfull,
   },
   {
-    name: "Kepesetaan MSIB",
+    name: "Kepersetaan MSIB",
     pdf: sertifmsib,
   },
   {

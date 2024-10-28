@@ -15,7 +15,7 @@ const Hero = () => {
   useEffect(() => {
     init(textRef.current, {
       showCursor: true,
-      strings: [" Web Developer ", " Mobile Developer "],
+      strings: [" Frontend Developer ", " Mobile Developer "],
     });
   }, []);
 

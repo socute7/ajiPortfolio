@@ -151,7 +151,7 @@ const Contact = () => {
               target="_blank"
               className="blue-text-gradient"
             >
-              +91 7040031669
+              085702848252
             </a>
           </article>
         </div>
