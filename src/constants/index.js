@@ -48,7 +48,7 @@ import {
   toefl,
   wmk,
   becons,
-  mobile,
+  bnsp,
 } from "../assets";
 
 const profiles = [
@@ -479,7 +479,7 @@ const sertifikat = [
   },
   {
     name: "Certification Scheme of Mobile Developer",
-    pdf: mobile,
+    pdf: bnsp,
   },
   {
     name: "Agile Excecution",
