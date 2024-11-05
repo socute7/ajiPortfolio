@@ -62,6 +62,7 @@ import powerfull from "./ceritificate/powerfull.pdf";
 import sertifmsib from "./ceritificate/sertif msib.pdf";
 import toefl from "./ceritificate/toefl.pdf";
 import wmk from "./ceritificate/wmk.pdf";
+import mobile from "./ceritificate/mobile.pdf";
 
 import becons from "./becons.jpg";
 
@@ -123,4 +124,5 @@ export {
   toefl,
   wmk,
   becons,
+  mobile,
 };
